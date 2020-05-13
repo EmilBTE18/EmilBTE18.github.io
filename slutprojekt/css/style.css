@@ -12,6 +12,13 @@ header {
 
 }
 
+#medier{
+
+  width: auto;
+  height: auto;
+
+}
+
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -78,7 +85,6 @@ nav a {
 main {
   grid-area: main;
   height: auto;
-  text-decoration: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -139,7 +145,7 @@ main div  {
 .pagination a {
   color: black;
   float: left;
-  padding: 8px 16px;
+  padding: 10px 12px;
   text-decoration: none;
 }
 

@@ -7,3 +7,9 @@ $("footer").click(function(){ //en funktion som lyssnar efter ett tryck på #med
 
 
 });
+
+function scroll_to('footer'){
+   if (div.scrollTop < div.scrollHeight - div.clientHeight)
+        div.scrollTop += 10; // move down
+
+}
