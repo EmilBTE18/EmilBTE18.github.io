@@ -19,6 +19,14 @@ header {
 
 }
 
+#karta{
+
+  width: 95%;
+  height: 200px;
+  border: 5px;
+
+}
+
 .navbar {
   overflow: hidden;
   background-color: #333;
