@@ -3,7 +3,7 @@ header {
   background-size: cover;
   background-position: center;
   height: auto;
-  width: 100%;
+  width: 1000px;
   text-align: center;
   color: black;
   font-size: 20px;
@@ -88,7 +88,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 .sprite {
@@ -122,12 +122,11 @@ main {
 }
 
 main div  {
-  grid-area: main;
   height: auto;
   width: 300px;
   background-color: white;
   margin: 15px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
