@@ -2,7 +2,7 @@ $("#medier").click(function(){ //en funktion som lyssnar efter ett tryck på #me
 console.log("test");
 
   $('html, body').animate({
-        scrollTop: $("#Media").offset()
-    }, 2500);
+        scrollTop: $("#Media").offset().top-60
+    }, 5000);
 
 });
