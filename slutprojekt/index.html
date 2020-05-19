@@ -16,14 +16,23 @@
 <body>
   <div id="wrapper">
 
-    <div class="navbar">
-
-      <a  id="home" href="index.html">Hem</a>
-      <a  id="medier" href="#Media">Följ oss på sociala medier!</a>
-      <a  id="omoss" href="omoss.html">Om Dalsland Fotboll</a>
-      <a  id="kontakta" href="kontakta.html">Kontakta</a>
-
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Hem</a>
+  <a href="#Medier">Våra sociala medier</a>
+  <a href="omoss.html">Om Dalsland Fotboll</a>
+  <a href="kontakta.html">Kontakta</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Hej</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
     </div>
+  </div>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
 
     <header>
       <div id="headerlogo">
