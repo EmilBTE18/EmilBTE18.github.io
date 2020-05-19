@@ -120,11 +120,9 @@ main {
 }
 
 main div  {
-  height: auto;
   width: 300px;
   background-color: white;
   margin: 15px;
-  margin-bottom: 20px;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -156,16 +154,9 @@ main div  {
 }
 
 footer div{
-  height: auto;
-  width: auto;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  justify-content: center;
-  text-align: center;
   color: black;
   margin-bottom: 50px;
 }
@@ -173,9 +164,6 @@ footer div{
 footer {
   grid-area: footer;
   background-color: white;
-  height: auto;
-  background-size: cover;
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -186,6 +174,7 @@ footer {
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: auto;
   grid-template-areas:
+  "navbar navbar navbar navbar"
   "header header header header"
   "nav nav nav nav"
   "main main main main"
@@ -197,6 +186,7 @@ footer {
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: auto;
     grid-template-areas:
+    "navbar navbar navbar navbar"
     "header header header header"
     "nav nav nav nav"
     "main main main main"
