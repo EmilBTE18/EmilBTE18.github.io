@@ -2,7 +2,8 @@ header {
   grid-area: header;
   height: auto;
   width: 1000px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   color: black;
   font-size: 20px;
   padding-top: 20px;
@@ -15,11 +16,10 @@ header {
   background-size: cover;
   background-position: center;
   height: auto;
-  width: auto;
+  width: 1000px;
   text-align: center;
   color: black;
   font-size: 20px;
-
 
 }
 
@@ -107,7 +107,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .sprite {
@@ -188,7 +188,7 @@ footer div{
   justify-content: center;
   text-align: center;
   color: black;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
 
 }
 
