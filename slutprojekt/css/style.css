@@ -14,50 +14,6 @@ header {
   flex-direction: row;
 }
 
-.dropknapp {
-  background-color: black;
-  color: white;
-  padding: 16px;
-	min-width: 30px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-	display: none;
-}
-
-/* Behövs för att placera innehållet i dropdown */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown innehåll */
-.dropdown-innehåll {
-  display: none;
-  position: absolute;
-	min-width: 75px;
-  background-color: #f1f1f1;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* länkar i dropdown*/
-.dropdown-innehåll a {
-  color: black;
-  font-size: 15px;
-	padding: 5px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Ändrar färg när man håller på en länk i dropdown med musen*/
-.dropdown-innehåll a:hover {background-color: #ddd}
-
-/*visar listan(dropdown)*/
-.show {
-  display:block;
-}
-
 #Media{
   width: auto;
   height: auto;
@@ -77,7 +33,7 @@ header {
   flex-direction: row;
   top: 0;
   width: 100%;
-  height: auto;
+  height: 50px;
   font-family: serif;
 }
 
@@ -148,30 +104,28 @@ main {
 }
 
 .sprite-headerlogo {
-    width: 351px;
-    height: 154px;
+    width: 340px;
+    height: 148px;
     background-position: -5px -5px;
 }
 
 .sprite-litenfacebook {
     width: 33px;
     height: 33px;
-    background-position: -366px -5px;
+    background-position: -355px -5px;
 }
 
 .sprite-liteninstagram {
     width: 33px;
     height: 33px;
-    background-position: -409px -5px;
+    background-position: -398px -5px;
 }
 
 .sprite-litentwitter {
     width: 39px;
     height: 33px;
-    background-position: -452px -5px;
+    background-position: -441px -5px;
 }
-
-
 
 main div  {
   width: 300px;
