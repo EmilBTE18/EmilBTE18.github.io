@@ -2,7 +2,7 @@ header {
   grid-area: header;
   color: black;
   font-size: 20px;
-  padding-top: 40px;
+  padding-top: 80px;
   margin-bottom: 25px;
   text-align: center;
   font-family: serif;
@@ -148,7 +148,7 @@ main {
 }
 
 .sprite-headerlogo {
-    width: 363px;
+    width: 351px;
     height: 154px;
     background-position: -5px -5px;
 }
@@ -156,20 +156,21 @@ main {
 .sprite-litenfacebook {
     width: 33px;
     height: 33px;
-    background-position: -378px -5px;
+    background-position: -366px -5px;
 }
 
 .sprite-liteninstagram {
     width: 33px;
     height: 33px;
-    background-position: -421px -5px;
+    background-position: -409px -5px;
 }
 
 .sprite-litentwitter {
     width: 39px;
     height: 33px;
-    background-position: -464px -5px;
+    background-position: -452px -5px;
 }
+
 
 
 main div  {
