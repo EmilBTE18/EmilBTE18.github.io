@@ -2,10 +2,55 @@ header {
   grid-area: header;
   color: black;
   font-size: 20px;
-  padding-top: 80px;
+  padding-top: 50px;
   margin-bottom: 25px;
   text-align: center;
   font-family: serif;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background-color: #333;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #länkar {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: #333;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a.icon:hover {
+  background-color: red;
+  color: white;
+}
+
+.active {
+  background-color: #333;
+  color: white;
 }
 
 #headerlogo{
@@ -98,33 +143,33 @@ main {
 }
 
 .sprite {
-    background-image: url('../img/spritesheet.png');
-    background-repeat: no-repeat;
-    display: block;
+  background-image: url('../img/spritesheet.png');
+  background-repeat: no-repeat;
+  display: block;
 }
 
 .sprite-headerlogo {
-    width: 340px;
-    height: 148px;
-    background-position: -5px -5px;
+  width: 340px;
+  height: 148px;
+  background-position: -5px -5px;
 }
 
 .sprite-litenfacebook {
-    width: 33px;
-    height: 33px;
-    background-position: -355px -5px;
+  width: 33px;
+  height: 33px;
+  background-position: -355px -5px;
 }
 
 .sprite-liteninstagram {
-    width: 33px;
-    height: 33px;
-    background-position: -398px -5px;
+  width: 33px;
+  height: 33px;
+  background-position: -398px -5px;
 }
 
 .sprite-litentwitter {
-    width: 39px;
-    height: 33px;
-    background-position: -441px -5px;
+  width: 39px;
+  height: 33px;
+  background-position: -441px -5px;
 }
 
 main div  {
@@ -178,7 +223,6 @@ footer {
   flex-wrap: wrap;
   font-family: serif;
 }
-
 
 #wrapper {
   display: grid;
