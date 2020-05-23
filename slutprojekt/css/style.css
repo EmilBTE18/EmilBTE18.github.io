@@ -35,6 +35,14 @@ header {
   border: 5px;
 }
 
+#nyhet{
+  text-align: left;
+}
+
+#omoss{
+  text-align: left;
+}
+
 .container {
   width: 100%;
   height: auto;
@@ -52,7 +60,7 @@ header {
 }
 
 .topnav #länkar {
-  
+
 }
 
 .topnav a {
@@ -127,7 +135,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 30px;
   font-family: serif;
 }
 
